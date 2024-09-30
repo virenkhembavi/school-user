@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Login from "./component/Login/index"
+import DashBoard from "./component/DashBoard/index"
+import PrivateRoute from "./component/PrivateRoute";
+import { useState } from "react";
+
 
 function App() {
+  const [auth, setAuth] = useState(localStorage?.getItem("Auth") || false)
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter >
+      <Routes >
+        <Route path="/" element={<Login setAuth={setAuth} />} />
+        <Route path="/dashboard" element={
+          <PrivateRoute Auth={auth}>
+            <DashBoard />
+          </PrivateRoute>} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;

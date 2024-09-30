@@ -1,0 +1,115 @@
+[
+    {
+        "userType": "admin",
+        "username": "VirenAdmin",
+        "email": "virenAdmin@gmail.com",
+        "language": "English",
+        "address": "123 Admin St, Cityville",
+        "standard": "8th Grade",
+        "password": "$2a$10$PuMCS7VYG2lxhdQ714FoAeu3FJjaOAIzYyEzDLkUJEsgmpZpaoHhq",
+        "subjects": [
+            "Mathematics",
+            "Science"
+        ]
+    },
+    {
+        "userType": "admin",
+        "username": "Admin",
+        "email": "Admin@yopmail.com",
+        "language": "English",
+        "address": "123 Admin St, Cityville",
+        "standard": "8th Grade",
+        "password": "$2a$10$PuMCS7VYG2lxhdQ714FoAeu3FJjaOAIzYyEzDLkUJEsgmpZpaoHhq",
+        "subjects": [
+            "Mathematics",
+            "Science",
+            "History",
+            "English"
+        ]
+    },
+    {
+        "userType": "student",
+        "username": "Viren Khembavi",
+        "email": "virenkhembavi@yopmail.com",
+        "language": "English",
+        "address": "456 Student Rd, Townsville",
+        "standard": "10th Grade",
+        "password": "$2a$10$PuMCS7VYG2lxhdQ714FoAeu3FJjaOAIzYyEzDLkUJEsgmpZpaoHhq",
+        "subjects": [
+            "Mathematics",
+            "Science",
+            "History",
+            "English"
+        ]
+    },
+    {
+        "userType": "student",
+        "username": "RiteshSharma",
+        "email": "risteshsharma@gmail.com",
+        "language": "English",
+        "address": "456 Student Rd, Townsville",
+        "standard": "10th Grade",
+        "password": "$2a$10$PuMCS7VYG2lxhdQ714FoAeu3FJjaOAIzYyEzDLkUJEsgmpZpaoHhq",
+        "subjects": [
+            "Mathematics",
+            "Science",
+            "History"
+        ]
+    },
+    {
+        "userType": "student",
+        "username": "Rishi Muleva",
+        "email": "rishimuleva@gmail.com",
+        "language": "English",
+        "address": "456 Student Rd, Townsville",
+        "standard": "10th Grade",
+        "password": "$2a$10$PuMCS7VYG2lxhdQ714FoAeu3FJjaOAIzYyEzDLkUJEsgmpZpaoHhq",
+        "subjects": [
+            "Mathematics",
+            "Science",
+            "History"
+        ]
+    },
+    {
+        "userType": "student",
+        "username": "Nikunj Yadav",
+        "email": "nikunjyadav@gmail.com",
+        "language": "English",
+        "address": "456 Student Rd, Townsville",
+        "standard": "10th Grade",
+        "password": "$2a$10$PuMCS7VYG2lxhdQ714FoAeu3FJjaOAIzYyEzDLkUJEsgmpZpaoHhq",
+        "subjects": [
+            "Mathematics",
+            "Science",
+            "History"
+        ]
+    },
+    {
+        "userType": "student",
+        "username": "Kaushik Metha",
+        "email": "kaushikmetha@gmail.com",
+        "language": "English",
+        "address": "456 Student Rd, Townsville",
+        "standard": "10th Grade",
+        "password": "$2a$10$PuMCS7VYG2lxhdQ714FoAeu3FJjaOAIzYyEzDLkUJEsgmpZpaoHhq",
+        "subjects": [
+            "Mathematics",
+            "Science",
+            "History"
+        ]
+    },
+    {
+        "userType": "student",
+        "username": "Dhiraj Jadhav",
+        "email": "dhirajjadhav@gmail.com",
+        "language": "English",
+        "address": "456 Student Rd, Townsville",
+        "standard": "10th Grade",
+        "password": "$2a$10$PuMCS7VYG2lxhdQ714FoAeu3FJjaOAIzYyEzDLkUJEsgmpZpaoHhq",
+        "subjects": [
+            "Mathematics",
+            "Science",
+            "History"
+        ]
+    }
+]
