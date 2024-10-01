@@ -12,7 +12,7 @@ export default function DetailsModal({
         setOpen(false)
         setDetails({})
     }
-    console.log(data);
+    
     return (
         <Modal
             open={true}
